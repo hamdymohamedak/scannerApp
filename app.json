@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "scanner",
+    "slug": "scanner",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/QRCodeamico.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/QRCodeamico.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/QRCodeamico.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.hamdymohamed.scanner"
+    },
+    "web": {
+      "favicon": "./assets/QRCodeamico.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "cc646e14-1bd1-4a63-8fb5-2ad6332c65e7"
+      }
+    }
+  }
+}
